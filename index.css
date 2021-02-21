@@ -1,0 +1,28 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  background-color: #AA445f;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left, .right {
+  width: 200px;
+  height: 400px;
+}
+.left {
+  background-color: #F7EC7D;
+  border-radius: 200px 0px 0px 200px;
+  margin-right: 50px;
+
+}
+.right {
+  background-color: #E38F66;
+  border-radius: 0px 200px 200px 0px;
+  margin-left: 50px;
+}
